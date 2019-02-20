@@ -44,7 +44,7 @@ var renderTemplate = function renderTemplate() {
         React.createElement(
             'p',
             null,
-            app.options && app.options.length ? 'Here are yout fucking options => ' + listOptions(app.options) : 'No options, sukcer!'
+            app.options && app.options.length ? 'Here are your options => ' + listOptions(app.options) : 'No options!'
         ),
         React.createElement(
             'form',

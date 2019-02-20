@@ -31,7 +31,7 @@ const renderTemplate = () => {
         <div>
             <p>{app.title}</p>
             {app.subtitle && <p>{app.subtitle}</p>}
-            <p>{(app.options && app.options.length) ? `Here are yout fucking options => ${listOptions(app.options)}` : 'No options, sukcer!'}</p>
+            <p>{(app.options && app.options.length) ? `Here are your options => ${listOptions(app.options)}` : 'No options!'}</p>
             <form onSubmit={onFormSubmit}>
                 <input type="text" name="option" />
                 <button>Add Option</button>
